@@ -1,0 +1,53 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* Animação dos banners */
+.scrolling-banners {
+  width: 100%;
+  overflow: hidden;
+}
+
+.scrolling-banners img {
+  min-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.payment-icon {
+  transition: transform 0.5s;
+}
+
+.payment-icon:hover {
+  transform: rotateY(180deg);
+}
+
+/* Banner responsivo mobile */
+@media (max-width: 768px) {
+  .scrolling-banners {
+    height: 250px;
+  }
+
+  .scrolling-banners img {
+    object-position: center;
+  }
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  background-color: #2d2d2d;
+  text-align: center;
+  padding: 12px 0;
+}
+
+
+

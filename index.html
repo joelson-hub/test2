@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TI Fácil - Suporte de TI por Assinatura</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/css/all.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-gray-900 text-white font-sans">
+
+  <div class="bg-cyan-700 text-white text-center py-3 px-6 text-lg font-semibold">
+    Lançamento especial! Aproveite 20% OFF no primeiro mês de qualquer pacote –
+    <a href="#planos" class="underline hover:text-yellow-300">Conheça planos</a>
+  </div>
+
+  <!-- Cabeçalho Responsivo -->
+  <header class="bg-gray-800 shadow-md sticky top-0 z-50">
+    <div class="flex items-center justify-between px-6 py-4">
+      <div class="flex items-center gap-3">
+        <img src="https://cdn.dooca.store/14767/files/logo-ifontech-icone-3-copia-1.png?v=1635003558&webp=0" class="w-10 h-10" alt="Logo TI Fácil" />
+        <span class="text-2xl font-bold text-cyan-400">TI Fácil</span>
+      </div>
+      <div class="md:hidden">
+        <button id="menu-toggle" class="text-white focus:outline-none text-2xl">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+      <nav id="menu" class="hidden md:flex space-x-4 text-base">
+        <a href="#sobre" class="bg-gray-700 px-3 py-1 rounded-md hover:bg-cyan-600 transition">Sobre</a>
+        <a href="#planos" class="bg-gray-700 px-3 py-1 rounded-md hover:bg-cyan-600 transition">Planos</a>
+        <a href="#depoimentos" class="bg-gray-700 px-3 py-1 rounded-md hover:bg-cyan-600 transition">Depoimentos</a>
+        <a href="#pagamentos" class="bg-gray-700 px-3 py-1 rounded-md hover:bg-cyan-600 transition">Pagamento</a>
+        <a href="#contato" class="bg-gray-700 px-3 py-1 rounded-md hover:bg-cyan-600 transition">Contato</a>
+      </nav>
+    </div>
+    <!-- Menu mobile -->
+    <div id="mobile-menu" class="md:hidden hidden flex-col px-6 pb-4 space-y-2">
+      <a href="#sobre" class="bg-gray-700 px-3 py-2 rounded-md block hover:bg-cyan-600">Sobre</a>
+      <a href="#planos" class="bg-gray-700 px-3 py-2 rounded-md block hover:bg-cyan-600">Planos</a>
+      <a href="#depoimentos" class="bg-gray-700 px-3 py-2 rounded-md block hover:bg-cyan-600">Depoimentos</a>
+      <a href="#pagamentos" class="bg-gray-700 px-3 py-2 rounded-md block hover:bg-cyan-600">Pagamento</a>
+      <a href="#contato" class="bg-gray-700 px-3 py-2 rounded-md block hover:bg-cyan-600">Contato</a>
+    </div>
+  </header>
+
+  <!-- Banner Principal -->
+  <div class="scrolling-banners h-[400px] overflow-hidden relative">
+    <div id="banner-container" class="flex transition-transform duration-500">
+      <img src="https://www.mm3ti.com.br/wp-content/uploads/2023/07/bannerafrican.png" alt="Banner 1" />
+      <img src="https://www.mm3ti.com.br/wp-content/uploads/2023/07/bannerafrican.png" alt="Banner 2" />
+      <img src="https://www.mm3ti.com.br/wp-content/uploads/2023/07/bannerafrican.png" alt="Banner 3" />
+    </div>
+  </div>
+
+  <!-- Sobre -->
+  <section id="sobre" class="py-16 px-6">
+    <h2 class="text-4xl font-bold text-center mb-8 text-cyan-400">Sobre o TI Fácil</h2>
+    <div class="max-w-4xl mx-auto text-center text-lg">
+      <p>
+        O <span class="text-cyan-300 font-semibold">TI Fácil</span> é uma plataforma de <strong>suporte de tecnologia por assinatura</strong>, pensada para simplificar a vida de quem precisa de ajuda com informática, mas não quer lidar com burocracia.
+      </p>
+      <p class="mt-4">
+        Com atendimento remoto e personalizado, nossos planos atendem diferentes perfis de clientes, desde quem precisa de ajuda para configurar um computador até quem administra um pequeno comércio e depende da tecnologia no dia a dia.
+      </p>
+    </div>
+  </section>
+
+  <!-- Planos -->
+<!-- Planos -->
+<!-- Planos -->
+<section id="planos" class="py-16 px-6 bg-gray-950">
+  <h2 class="text-4xl font-bold text-center mb-12 text-cyan-400">Nossos Planos</h2>
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+    
+    <!-- Card 1 -->
+    <div class="bg-gray-800 rounded-xl p-4 shadow-lg transform transition duration-300 hover:scale-105 text-center flex flex-col h-full">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf7u0zyzolAu5cY5J25GuBZQ_Q2rzXsmU-3Q&s" alt="Usuários Domésticos" class="rounded-lg h-40 w-full object-cover mb-4">
+      <h3 class="text-xl font-semibold text-cyan-300 mb-2">Pacote Pessoal Tech – R$39/mês</h3>
+      <div class="text-sm text-gray-300 text-justify space-y-1 mb-4">
+        <ul>
+          <li>✔ Suporte técnico remoto (1x/mês)</li>
+          <li>✔ Limpeza e otimização do PC</li>
+          <li>✔ Verificação contra vírus e backup simples</li>
+          <li>✔ Dicas de uso seguro da internet</li>
+        </ul>
+      </div>
+      <a href="#contato" class="mt-auto inline-block bg-cyan-500 hover:bg-cyan-600 text-white px-4 py-2 rounded-full">Assinar</a>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="bg-gray-800 rounded-xl p-4 shadow-lg transform transition duration-300 hover:scale-105 text-center flex flex-col h-full">
+      <img src="https://blog.milvus.com.br/wp-content/uploads/suporte-de-TI.jpg" alt="Negócios Locais" class="rounded-lg h-40 w-full object-cover mb-4">
+      <h3 class="text-xl font-semibold text-cyan-300 mb-2">Pacote Negócio Conectado – R$99/mês</h3>
+      <div class="text-sm text-gray-300 text-justify space-y-1 mb-4">
+        <ul>
+          <li>✔ Suporte remoto e presencial 1x/mês</li>
+          <li>✔ Verificação e atualização de sistemas</li>
+          <li>✔ Backup mensal dos dados</li>
+          <li>✔ Monitoramento básico da rede</li>
+          <li>✔ Atendimento emergencial com prioridade</li>
+        </ul>
+      </div>
+      <a href="#contato" class="mt-auto inline-block bg-cyan-500 hover:bg-cyan-600 text-white px-4 py-2 rounded-full">Assinar</a>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="bg-gray-800 rounded-xl p-4 shadow-lg transform transition duration-300 hover:scale-105 text-center flex flex-col h-full">
+      <img src="https://www.patronatoplbm.com.br/wp-content/uploads/2023/06/formacao_como-escolher-a-melhor-escola-para-os-filhos-1024x768.jpg.webp" alt="Escolas Pequenas" class="rounded-lg h-40 w-full object-cover mb-4">
+      <h3 class="text-xl font-semibold text-cyan-300 mb-2">Pacote Escola Segura – R$199/mês</h3>
+      <div class="text-sm text-gray-300 text-justify space-y-1 mb-4">
+        <ul>
+          <li>✔ Atendimento para 3 a 5 máquinas</li>
+          <li>✔ Monitoramento de software e antivírus</li>
+          <li>✔ Suporte remoto ilimitado</li>
+          <li>✔ Presencial 1x/mês</li>
+          <li>✔ Relatório mensal com melhorias sugeridas</li>
+        </ul>
+      </div>
+      <a href="#contato" class="mt-auto inline-block bg-cyan-500 hover:bg-cyan-600 text-white px-4 py-2 rounded-full">Assinar</a>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="bg-gray-800 rounded-xl p-4 shadow-lg transform transition duration-300 hover:scale-105 text-center flex flex-col h-full">
+      <img src="https://mayarajunges.com.br/wp-content/uploads/2023/08/Design-sem-nome-54.png" alt="Profissionais Liberais" class="rounded-lg h-40 w-full object-cover mb-4">
+      <h3 class="text-xl font-semibold text-cyan-300 mb-2">Pacote Profissional Digital – R$79/mês</h3>
+      <div class="text-sm text-gray-300 text-justify space-y-1 mb-4">
+        <ul>
+          <li>✔ Suporte remoto 2x/mês</li>
+          <li>✔ Consultoria para organização digital</li>
+          <li>✔ Recomendações de apps e produtividade</li>
+          <li>✔ Backup e segurança de arquivos</li>
+        </ul>
+      </div>
+      <a href="#contato" class="mt-auto inline-block bg-cyan-500 hover:bg-cyan-600 text-white px-4 py-2 rounded-full">Assinar</a>
+    </div>
+
+    <!-- Card 5 -->
+    <div class="bg-gray-800 rounded-xl p-4 shadow-lg transform transition duration-300 hover:scale-105 text-center flex flex-col h-full">
+      <img src="https://phoenixnap.com/glossary/wp-content/uploads/2024/07/what-is-ensemble-programming.jpg" alt="Consultoria de TI" class="rounded-lg h-40 w-full object-cover mb-4">
+      <h3 class="text-xl font-semibold text-cyan-300 mb-2">Consultoria sob medida – R$90/hora</h3>
+      <div class="text-sm text-gray-300 text-justify space-y-1 mb-4">
+        <ul>
+          <li>✔ Criação de soluções de TI sob demanda</li>
+          <li>✔ Implantação de sistemas</li>
+          <li>✔ Organização de processos digitais</li>
+          <li>✔ Consultoria estratégica por hora</li>
+        </ul>
+      </div>
+      <a href="#contato" class="mt-auto inline-block bg-cyan-500 hover:bg-cyan-600 text-white px-4 py-2 rounded-full">Agendar agora</a>
+    </div>
+
+  </div>
+</section>
+
+
+
+  <!-- Depoimentos -->
+  <section id="depoimentos" class="py-16 px-6">
+    <h2 class="text-4xl font-bold text-center mb-12 text-cyan-400">Depoimentos</h2>
+    <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
+      <div class="bg-gray-800 p-6 rounded-xl shadow-lg hover:scale-105 transition">
+        <div class="flex items-center mb-4 gap-4">
+          <img src="https://randomuser.me/api/portraits/women/1.jpg" class="w-12 h-12 rounded-full" alt="Cliente">
+          <div>
+            <p class="font-semibold text-cyan-300">Maria F.</p>
+            <p class="text-sm">Aposentada</p>
+            <div class="text-yellow-400"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></div>
+          </div>
+        </div>
+        <p class="text-lg">"Sempre que tenho problemas com meu computador, o TI Fácil resolve rapidamente. Super indico!"</p>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-xl shadow-lg hover:scale-105 transition">
+        <div class="flex items-center mb-4 gap-4">
+          <img src="https://randomuser.me/api/portraits/men/1.jpg" class="w-12 h-12 rounded-full" alt="Cliente">
+          <div>
+            <p class="font-semibold text-cyan-300">Carlos T.</p>
+            <p class="text-sm">Empresário</p>
+            <div class="text-yellow-400"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+          </div>
+        </div>
+        <p class="text-lg">"Excelente serviço! Minha empresa depende da TI e o TI Fácil sempre resolve tudo de forma rápida e eficiente."</p>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-xl shadow-lg hover:scale-105 transition">
+        <div class="flex items-center mb-4 gap-4">
+          <img src="https://randomuser.me/api/portraits/men/2.jpg" class="w-12 h-12 rounded-full" alt="Cliente">
+          <div>
+            <p class="font-semibold text-cyan-300">Ricardo S.</p>
+            <p class="text-sm">Profissional Liberal</p>
+            <div class="text-yellow-400"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="fas fa-star-half-alt"></i></div>
+          </div>
+        </div>
+        <p class="text-lg">"Muito prático e fácil de usar. O atendimento é ótimo e resolvem meu problema de forma eficaz!"</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pagamentos -->
+  <section id="pagamentos" class="py-16 px-6 bg-gray-950">
+    <h2 class="text-4xl font-bold text-center mb-12 text-cyan-400">Formas de Pagamento</h2>
+    <div class="flex justify-center gap-6">
+      <div class="payment-icon text-center">
+        <img src="https://user-images.githubusercontent.com/741969/99538133-492fe280-298b-11eb-81a2-66779343e064.png" alt="Pix" class="w-16 h-16 mx-auto" />
+        <p class="mt-2 text-sm text-gray-300">Pix</p>
+      </div>
+      <div class="payment-icon text-center">
+        <img src="https://img.icons8.com/?size=512&id=13608&format=png" alt="Visa" class="w-16 h-16 mx-auto" />
+        <p class="mt-2 text-sm text-gray-300">Cartão Visa</p>
+      </div>
+      <div class="payment-icon text-center">
+        <img src="https://cdn.iconscout.com/icon/free/png-256/free-mastercard-3384869-2822950.png?f=webp" alt="Mastercard" class="w-16 h-16 mx-auto" />
+        <p class="mt-2 text-sm text-gray-300">Cartão Mastercard</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="py-16 px-6">
+    <h2 class="text-4xl font-bold text-center mb-12 text-cyan-400">Contato</h2>
+    <div class="max-w-3xl mx-auto text-center">
+      <p class="text-lg mb-6">Entre em contato conosco para tirar dúvidas ou solicitar mais informações.</p>
+      <p class="text-lg mb-4">Endereço: Rua Tupiniquins, SN, Terra Nova - Macapá-AP</p>
+      <p class="text-lg mb-4">Email: <a href="mailto:joelsonvasconcelos07@gmail.com" class="text-cyan-400 hover:text-cyan-600">joelsonvasconcelos07@gmail.com</a></p>
+      <p class="text-lg mb-4">Telefone: (96) 99907-3367</p>
+
+      <!-- Redes Sociais -->
+      <div class="flex justify-center gap-6 mb-8">
+        <a href="https://www.facebook.com" target="_blank">
+          <i class="fab fa-facebook-f text-3xl text-cyan-400 hover:text-cyan-600"></i>
+        </a>
+        <a href="https://twitter.com" target="_blank">
+          <i class="fab fa-twitter text-3xl text-cyan-400 hover:text-cyan-600"></i>
+        </a>
+        <a href="https://www.instagram.com" target="_blank">
+          <i class="fab fa-instagram text-3xl text-cyan-400 hover:text-cyan-600"></i>
+        </a>
+        <a href="https://www.linkedin.com" target="_blank">
+          <i class="fab fa-linkedin-in text-3xl text-cyan-400 hover:text-cyan-600"></i>
+        </a>
+        <a href="https://wa.me/5596999073367" target="_blank">
+          <i class="fab fa-whatsapp text-3xl text-cyan-400 hover:text-cyan-600"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- WhatsApp Flutuante -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <a href="https://wa.me/5596999073367" style="position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888; z-index:1000;" target="_blank">
+    <i style="margin-top:16px" class="fa fa-whatsapp"></i>
+  </a>
+
+  <!-- Rodapé -->
+  <footer class="bg-gray-800 text-center py-6">
+    <p class="text-sm text-gray-400">&copy; 2025 TI Fácil - Todos os direitos reservados</p>
+  </footer>
+
+  <!-- JavaScript externo -->
+  <script src="js/main.js"></script>
+</body>
+</html>
+
