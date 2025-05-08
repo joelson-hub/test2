@@ -22,7 +22,7 @@ html {
   transform: rotateY(180deg);
 }
 
-/* Banner responsivo mobile */
+/* Banner responsivo para o celularr */
 @media (max-width: 768px) {
   .scrolling-banners {
     height: 250px;
